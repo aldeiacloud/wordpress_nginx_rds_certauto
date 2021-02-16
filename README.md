@@ -1,6 +1,6 @@
 <b>RESUMO: Este script faz uma configuração de uma base Wordpress com Nginx, utilizando o AWS RDS como database. Contém certificado SSL LetsEncrypt com renovaço automática e redirecionamento para HTTPS.</b>
 
-  Extras:
+ <b>Extras:</b>
   - Altera o horário do Ubuntu para -3 UTC;
   - Configura 2GB de Swap e adiciona no fstab.
 
@@ -36,7 +36,7 @@ sudo ./install.sh<br>
 
 ------------------------------------------------------------------------------
 
-4- NO TERMINAL, ALTERAR QUINTA LINHA "server_name _;" para "server_name seudominio.com.br;"
+4- NO TERMINAL, ALTERAR QUINTA LINHA "<i>server_name _;</i>" para "<i>server_name seudominio.com.br;</i>"
 - sudo vim /etc/nginx/sites-enabled/wordpress
 
 ------------------------------------------------------------------------------
