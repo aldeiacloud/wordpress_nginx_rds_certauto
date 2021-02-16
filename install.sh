@@ -9,9 +9,9 @@ sudo apt install -y php-fpm php-mysql
 sudo install -y software-properties-common 
 sudo apt update -y 
 # INSTALAR CERTBOT
-sudo install -y certbot 
+sudo apt install -y certbot 
 # INSTALAR PYTHON CERTBOT
-sudo install -y python-certbot-nginx 
+sudo apt install -y python-certbot-nginx 
 # BAIXAR CONFIGURAÇÃO
 wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/default.conf
 # COPIAR ARQUIVO DE CONFIGURACAO PARA "SITES AVAILABLE"
