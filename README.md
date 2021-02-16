@@ -24,7 +24,7 @@ RESUMO: Este script faz uma configuração de uma base Wordpress com Nginx, util
 -> Instalar/Submit
 
 
-3- LOGAR, ALTERAR O DOMINIO NAS CONFIGURAÇÕES DO WORDPRESS, DO SEU HTTP//:ip-publico para HTTPS://DOMINIO.com.br
+3- LOGAR, ALTERAR O DOMINIO NAS CONFIGURAÇÕES DO WORDPRESS, DO SEU HTTP//:ip-publico para HTTPS://seudominio.com.br
 
 
 4- NO TERMINAL, ALTERAR QUINTA LINHA "server_name _;" para "server_name seudominio.com.br;"
