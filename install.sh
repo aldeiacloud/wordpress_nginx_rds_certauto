@@ -14,8 +14,6 @@ sudo install -y certbot
 sudo install -y python-certbot-nginx 
 # BAIXAR CONFIGURAÇÃO
 wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/default.conf
-# ABRIR ARQUIVO DE CONFIGURACAO PARA ADICIONAR SEU DOMINIO
-vim default.conf 
 # COPIAR ARQUIVO DE CONFIGURACAO PARA "SITES AVAILABLE"
 sudo cp default.conf /etc/nginx/sites-available/wordpress
 # CRIANDO LINK DA CONFIGURAÇÃO PARA "SITES ENABLE"
