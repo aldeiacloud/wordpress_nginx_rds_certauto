@@ -16,7 +16,7 @@
 
 3- LOGAR, ALTERAR O DOMINIO NAS CONFIGURAÇÕES DO WORDPRESS, DO SEU HTTP//:ip-publico para HTTPS://DOMINIO.com.br
 
-4- ALTERAR QUINTA LINHA "server_name _;" para "server_name seudominio.com.br;"
+4- NO TERMINAL, ALTERAR QUINTA LINHA "server_name _;" para "server_name seudominio.com.br;"
 - vim /etc/nginx/sites-enabled/wordpress
 
 4- INSTALAR CERTIFICADO (REDIRECT)
