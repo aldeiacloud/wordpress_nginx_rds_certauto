@@ -16,7 +16,7 @@ sudo ./install.sh<br>
 
 ------------------------------------------------------------------------------
 
-2- ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS COLOCANDO O IP PUBLICO NO NAVEGADOR 
+2- ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS COLOCANDO O IP PUBLICO NO NAVEGADOR:
 
 - Database Name: Initial database name configurado (Ex.: aldeiacloud_db)
 
@@ -41,5 +41,5 @@ sudo ./install.sh<br>
 
 ------------------------------------------------------------------------------
 
-4- INSTALAR CERTIFICADO (2- Redirect)
+4- INSTALAR CERTIFICADO: (2- Redirect)
 - sudo certbot --nginx
