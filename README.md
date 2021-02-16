@@ -9,13 +9,9 @@ RESUMO: Este script faz uma configuração de uma base Wordpress com Nginx, util
 1- NA CAIXA DE DIÁLOGO AO FINAL DA CONFIGURAÇÃO DE AZ DA EC2, ADICIONAR:
 
 #!/bin/bash
-
 cd /tmp
-
 sudo wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/install.sh
-
 sudo chmod +x install.sh
-
 sudo ./install.sh
 
 
