@@ -10,11 +10,11 @@ RESUMO: Este script faz uma configuração de uma base Wordpress com Nginx, util
 
 #!/bin/bash
 
-cd /tmp 
+cd /tmp
 
-sudo wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/install.sh 
+sudo wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/install.sh
 
-sudo chmod +x install.sh 
+sudo chmod +x install.sh
 
 sudo ./install.sh
 
