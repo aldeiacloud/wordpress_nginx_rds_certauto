@@ -1,4 +1,4 @@
-1- cd /tmp && wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/install.sh && chmod +x install.sh && ./install.sh
+1- sudo cd /tmp && sudo wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/install.sh && sudo chmod +x install.sh && sudo ./install.sh
 
 2- ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS COLOCANDO O IP PUBLICO NO NAVEGADOR 
 
