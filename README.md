@@ -28,7 +28,7 @@ sudo ./install.sh<br>
 
 - Table Prefix: MANTENHA O QUE ESTÁ
 
--> Instalar/Submit
+<b>-> Instalar/Submit</b>
 
 ------------------------------------------------------------------------------
 
