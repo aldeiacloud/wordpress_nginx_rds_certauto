@@ -6,7 +6,7 @@
 
 ------------------------------------------------------------------------------
 
-1- NA CAIXA DE DIÁLOGO AO FINAL DA CONFIGURAÇÃO DE AZ DA EC2, ADICIONAR:
+1- NA CAIXA DE DIÁLOGO AO <b>FINAL DA PÁGINA</b> DE CONFIGURAÇÃO DE ZONA/VPC DA EC2, ADICIONAR:
 
 #!/bin/bash<br>
 cd /tmp<br>
