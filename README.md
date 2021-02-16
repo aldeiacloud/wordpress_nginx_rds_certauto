@@ -1,4 +1,4 @@
-RESUMO: Este script faz uma configuração de uma base Wordpress com Nginx, utilizando o AWS RDS como database. Contém certificado SSL LetsEncrypt com renovaço automática e redirecionamento para HTTPS.</b2>
+<b>RESUMO: Este script faz uma configuração de uma base Wordpress com Nginx, utilizando o AWS RDS como database. Contém certificado SSL LetsEncrypt com renovaço automática e redirecionamento para HTTPS.</b>
 
   Extras:
   - Altera o horário do Ubuntu para -3 UTC;
@@ -14,6 +14,7 @@ sudo wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_cert
 sudo chmod +x install.sh<br>
 sudo ./install.sh<br>
 
+------------------------------------------------------------------------------
 
 2- ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS COLOCANDO O IP PUBLICO NO NAVEGADOR 
 
@@ -29,13 +30,16 @@ sudo ./install.sh<br>
 
 -> Instalar/Submit
 
+------------------------------------------------------------------------------
 
 3- LOGAR, ALTERAR O DOMINIO NAS CONFIGURAÇÕES DO WORDPRESS, DO SEU HTTP//:ip-publico para HTTPS://seudominio.com.br
 
+------------------------------------------------------------------------------
 
 4- NO TERMINAL, ALTERAR QUINTA LINHA "server_name _;" para "server_name seudominio.com.br;"
 - sudo vim /etc/nginx/sites-enabled/wordpress
 
+------------------------------------------------------------------------------
 
-4- INSTALAR CERTIFICADO (REDIRECT)
+4- INSTALAR CERTIFICADO (2- Redirect)
 - sudo certbot --nginx
