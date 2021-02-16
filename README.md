@@ -6,7 +6,12 @@ RESUMO: Este script faz uma configuração de uma base Wordpress com Nginx, util
 
 ------------------------------------------------------------------------------
 
-1- cd /tmp && sudo wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/install.sh && sudo chmod +x install.sh && sudo ./install.sh
+1- NA CAIXA DE DIÁLOGO AO FINAL DA CONFIGURAÇÃO DE AZ DA EC2, ADICIONAR:
+#!/bin/bash
+cd /tmp 
+sudo wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/install.sh 
+sudo chmod +x install.sh 
+sudo ./install.sh
 
 
 2- ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS COLOCANDO O IP PUBLICO NO NAVEGADOR 
@@ -28,7 +33,7 @@ RESUMO: Este script faz uma configuração de uma base Wordpress com Nginx, util
 
 
 4- NO TERMINAL, ALTERAR QUINTA LINHA "server_name _;" para "server_name seudominio.com.br;"
-- vim /etc/nginx/sites-enabled/wordpress
+- sudo vim /etc/nginx/sites-enabled/wordpress
 
 
 4- INSTALAR CERTIFICADO (REDIRECT)
