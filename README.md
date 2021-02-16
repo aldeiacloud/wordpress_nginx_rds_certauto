@@ -17,4 +17,4 @@
 3- LOGAR, ALTERAR O DOMINIO NAS CONFIGURAÇÕES DO WORDPRESS, DO SEU HTTP//:ip-publico para HTTPS://DOMINIO.com.br
 
 4- INSTALAR CERTIFICADO (REDIRECT)
-sudo certbot --nginx
+- sudo certbot --nginx
