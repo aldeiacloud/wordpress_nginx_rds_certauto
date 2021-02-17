@@ -19,7 +19,7 @@ sudo ./install.sh<br>
 
 ------------------------------------------------------------------------------
 
-<b>2-</b> ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS ACESSANDO O IP PÚBLICO NO NAVEGADOR:
+<b>2-</b> ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS ACESSANDO O IP PÚBLICO PELO NAVEGADOR:
 
 - <b>Database Name:</b> <i>Initial database name</i> configurado. (Ex.: aldeiacloud_db)<br>
 - <b>Username:</b> usuário do banco. (Ex.: admin)<br>
@@ -31,7 +31,7 @@ sudo ./install.sh<br>
 
 ------------------------------------------------------------------------------
 
-<b>3-</b> LOGAR, ALTERAR O DOMINIO NAS CONFIGURAÇÕES DO WORDPRESS:<br>
+<b>3-</b> LOGAR, ALTERAR O DOMÍNIO NAS CONFIGURAÇÕES DO WORDPRESS:<br>
 <b>de:</b> HTTP//:ip-publico<br>
 <b>para:</b> HTTPS://seudominio.com.br
 
