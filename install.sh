@@ -12,11 +12,11 @@ sudo apt update -y
 sudo apt install -y certbot 
 # INSTALAR PYTHON CERTBOT
 sudo apt install -y python-certbot-nginx 
-# BAIXAR CONFIGURAÇÃO BASE DO WORDPRESS PARA NGINX
+# BAIXAR CONFIGURACAO BASE DO WORDPRESS PARA NGINX
 wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/default.conf
 # COPIAR ARQUIVO DE CONFIGURACAO PARA "SITES AVAILABLE"
 sudo cp default.conf /etc/nginx/sites-available/wordpress
-# CRIANDO LINK DA CONFIGURAÇÃO PARA "SITES ENABLED"
+# CRIANDO LINK DA CONFIGURACAO PARA "SITES ENABLED"
 sudo ln -s /etc/nginx/sites-available/wordpress /etc/nginx/sites-enabled/
 # UNLINK DEFAULT
 sudo unlink /etc/nginx/sites-enabled/default
@@ -40,15 +40,15 @@ sudo systemctl enable nginx
 timedatectl set-timezone America/Argentina/Buenos_Aires
 # CRIAR SWAP (MEMORIA DE ESCAPE)
 sudo fallocate -l 2G /swapfile
-# ATRIBUINDO ELEITURA E ESCRITA PARA O DONO E NADA PARA GRUPO E OUTROS
+# CONFIGURANDO PERMISSAO DE LEITURA E ESCRITA PARA O DONO E NENHUMA PERMISSAO PARA GRUPO E OUTROS NO "/SWAPFILE"
 sudo chmod 600 /swapfile
-# MONTANDO SWAP NO ARQUIVO CRIADO
+# CONFIGURANDO SWAP NO ARQUIVO CRIADO
 sudo mkswap /swapfile
 # SUBINDO SWAP
 sudo swapon /swapfile
-# ADICIONANDO SWAP NO FSTAB PARA INICIAR COM SISTEMA OPERACIONAL
+# ADICIONANDO PONTO DE MONTAGEM DO SWAP NO FSTAB (PARA INICIAR COM SISTEMA OPERACIONAL)
 echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
-# ADICIONAR RENOVAÇÃO AUTOMATICA DO CERTIFICADO
+# ADICIONAR RENOVACAO AUTOMATICA DO CERTIFICADO
 echo "SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
