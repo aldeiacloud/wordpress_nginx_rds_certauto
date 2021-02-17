@@ -21,8 +21,8 @@ sudo ./install.sh<br>
 
 <b>2-</b> ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS ACESSANDO O IP PÚBLICO PELO NAVEGADOR:
 
-2.1- Escolher idioma de preferência.
-2.2- Parâmetros para configuraço:
+<b>2.1-</b> Escolher idioma de preferência.<br>
+2.2- Parâmetros para configuração:
 - <b>Database Name:</b> <i>Initial database name</i> configurado. (Ex.: aldeiacloud_db)<br>
 - <b>Username:</b> usuário do banco. (Ex.: admin)<br>
 - <b>Password:</b> senha do usuário do banco.<br>
