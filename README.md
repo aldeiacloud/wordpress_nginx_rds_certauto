@@ -37,7 +37,7 @@ sudo ./install.sh<br>
 ------------------------------------------------------------------------------
 
 4- NO TERMINAL, ALTERAR QUINTA LINHA "<i>server_name _;</i>" para "<i>server_name seudominio.com.br;</i>"
-- sudo vim /etc/nginx/sites-enabled/wordpress
+- sudo vim /etc/nginx/sites-available/wordpress
 
 ------------------------------------------------------------------------------
 
