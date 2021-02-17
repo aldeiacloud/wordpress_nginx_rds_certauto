@@ -41,8 +41,8 @@ de: HTTP//:ip-publico para HTTPS://seudominio.com.br
 ------------------------------------------------------------------------------
 
 <b>4-</b> NO TERMINAL, ALTERAR QUINTA LINHA:<br>
-de: <i>server_name _;</i><br>
-para: <i>server_name seudominio.com.br www.seudominio.com.br;</i><br>
+<b>de:</b> <i>server_name _;</i><br>
+<b>para:</b> <i>server_name seudominio.com.br www.seudominio.com.br;</i><br>
 - sudo vim /etc/nginx/sites-available/wordpress
 
 ------------------------------------------------------------------------------
