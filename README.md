@@ -40,7 +40,7 @@ de: HTTP//:ip-publico para HTTPS://seudominio.com.br
 
 ------------------------------------------------------------------------------
 
-<b>4-</b> NO TERMINAL, ALTERAR QUINTA LINHA "<i>server_name _;</i>" para "<i>server_name seudominio.com.br www.seudominio.com.br;</i>"
+<b>4-</b> NO TERMINAL, ALTERAR QUINTA LINHA: | "<i>server_name _;</i>" para "<i>server_name seudominio.com.br www.seudominio.com.br;</i>"
 - sudo vim /etc/nginx/sites-available/wordpress
 
 ------------------------------------------------------------------------------
