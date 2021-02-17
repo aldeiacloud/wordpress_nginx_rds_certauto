@@ -9,7 +9,7 @@ Contém certificado SSL LetsEncrypt com renovação automática e redirecionamen
 
 ------------------------------------------------------------------------------
 
-<b>1-</b> NA CAIXA DE DIÁLOGO AO <b>FINAL DA PÁGINA</b> DE CONFIGURAÇÃO DE ZONA/VPC DA EC2, ADICIONAR:
+<b>1-</b>AO <b>FINAL DA PÁGINA</b> DA CONFIGURAÇÃO DE ZONA/VPC DA EC2, ADICIONAR NA CAIXA DE DIÁLOGO:
 
 #!/bin/bash<br>
 cd /tmp<br>
