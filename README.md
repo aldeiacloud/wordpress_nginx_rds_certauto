@@ -1,5 +1,5 @@
 <b>RESUMO: <br>Configuração de uma aplicação Wordpress com Nginx, utilizando o AWS RDS como database. <br>
-Contém certificado SSL LetsEncrypt com renovaço automática e redirecionamento para HTTPS.</b>
+Contém certificado SSL LetsEncrypt com renovação automática e redirecionamento de HTTP para HTTPS.</b>
 
  <b>Extras:</b>
   - Altera o horário do Ubuntu para GMT-3;
