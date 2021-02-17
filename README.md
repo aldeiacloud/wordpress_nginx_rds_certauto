@@ -3,7 +3,7 @@
 
  <b>Extras:</b>
   - Altera o horário do Ubuntu para GMT-3;
-  - Configura 2GB de Swap e adiciona no fstab.
+  - Configura 2GB de Swap e adiciona no /etc/fstab.
 
 ------------------------------------------------------------------------------
 
