@@ -47,5 +47,5 @@ de: HTTP//:ip-publico para HTTPS://seudominio.com.br
 
 ------------------------------------------------------------------------------
 
-<b>4-</b> INSTALAR CERTIFICADO: (2- Redirect)
+<b>4-</b> INSTALAR CERTIFICADO: (Lembrar de ativar a opção <b>2- Redirect</b>)
 - sudo certbot --nginx
