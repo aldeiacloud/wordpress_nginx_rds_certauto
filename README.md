@@ -1,4 +1,4 @@
-<b>RESUMO: Configuração de uma aplicação Wordpress com Nginx, utilizando o AWS RDS como database. <br>
+<b>RESUMO: <br>Configuração de uma aplicação Wordpress com Nginx, utilizando o AWS RDS como database. <br>
  Contém certificado SSL LetsEncrypt com renovaço automática e redirecionamento para HTTPS.</b>
 
  <b>Extras:</b>
