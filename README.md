@@ -41,6 +41,7 @@ sudo ./install.sh<br>
 
 <b>4-</b> NO TERMINAL, ALTERAR QUINTA LINHA DA CONFIGURAÇÃO DO WORDPRESS NO NGINX:<br>
 - sudo vim /etc/nginx/sites-available/wordpress<br>
+
 <b>de:</b> <i>server_name _;</i><br>
 <b>para:</b> <i>server_name seudominio.com.br www.seudominio.com.br;</i><br>
 
