@@ -1,7 +1,7 @@
 <b>RESUMO: Este script faz uma configuração de uma base Wordpress com Nginx, utilizando o AWS RDS como database. Contém certificado SSL LetsEncrypt com renovaço automática e redirecionamento para HTTPS.</b>
 
  <b>Extras:</b>
-  - Altera o horário do Ubuntu para -3 UTC;
+  - Altera o horário do Ubuntu para GMT-3;
   - Configura 2GB de Swap e adiciona no fstab.
 
 ------------------------------------------------------------------------------
