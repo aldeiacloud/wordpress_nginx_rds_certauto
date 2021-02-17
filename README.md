@@ -21,10 +21,10 @@ sudo ./install.sh<br>
 
 <b>2-</b> ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS COLOCANDO O IP PUBLICO NO NAVEGADOR:
 
-- <b>Database Name:</b> <i>Initial database name</i> configurado; (Ex.: aldeiacloud_db)<br>
-- <b>Username:</b> usuario do banco; (Ex.: admin)<br>
-- <b>Password:</b> senha do usuário do banco;<br>
-- <b>Database Host:</b> endpoint do banco;<br>
+- <b>Database Name:</b> <i>Initial database name</i> configurado. (Ex.: aldeiacloud_db)<br>
+- <b>Username:</b> usuário do banco. (Ex.: admin)<br>
+- <b>Password:</b> senha do usuário do banco.<br>
+- <b>Database Host:</b> endpoint do banco.<br>
 - <b>Table Prefix:</b> MANTENHA O QUE ESTÁ.<br>
 
 <b>-> Instalar/Submit</b>
