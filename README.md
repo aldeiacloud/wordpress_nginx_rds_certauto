@@ -5,6 +5,8 @@ Contém certificado SSL LetsEncrypt com renovaço automática e redirecionamento
   - Altera o horário do Ubuntu para GMT-3;
   - Configura 2GB de Swap e adiciona no /etc/fstab.
 
+Link da implementação: www.youtube.com/
+
 ------------------------------------------------------------------------------
 
 1- NA CAIXA DE DIÁLOGO AO <b>FINAL DA PÁGINA</b> DE CONFIGURAÇÃO DE ZONA/VPC DA EC2, ADICIONAR:
