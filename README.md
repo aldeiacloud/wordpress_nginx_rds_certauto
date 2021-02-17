@@ -36,7 +36,8 @@ sudo ./install.sh<br>
 ------------------------------------------------------------------------------
 
 <b>3-</b> LOGAR, ALTERAR O DOMINIO NAS CONFIGURAÇÕES DO WORDPRESS:<br>
-de: HTTP//:ip-publico para HTTPS://seudominio.com.br
+<b>de:</b> HTTP//:ip-publico<br>
+<b>para:</b> HTTPS://seudominio.com.br
 
 ------------------------------------------------------------------------------
 
