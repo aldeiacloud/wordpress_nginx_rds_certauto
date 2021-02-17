@@ -3,20 +3,20 @@
 sudo apt update -y 
 # INSTALAR NGINX
 sudo apt install -y nginx
-# INSTALAR PHP
+# INSTALAR ~PHP
 sudo apt install -y php-fpm php-mysql
-# ADICIONAR REPO LETSENCRYPT E ATUALIZAR
+# ADICIONAR REPO ~LETSENCRYPT E ATUALIZAR
 sudo install -y software-properties-common 
 sudo apt update -y 
 # INSTALAR CERTBOT
 sudo apt install -y certbot 
 # INSTALAR PYTHON CERTBOT
 sudo apt install -y python-certbot-nginx 
-# BAIXAR CONFIGURAÇÃO
+# BAIXAR CONFIGURAÇÃO BASE DO WORDPRESS PARA NGINX
 wget https://raw.githubusercontent.com/aldeiacloud/wordpress_nginx_rds_certauto/main/default.conf
 # COPIAR ARQUIVO DE CONFIGURACAO PARA "SITES AVAILABLE"
 sudo cp default.conf /etc/nginx/sites-available/wordpress
-# CRIANDO LINK DA CONFIGURAÇÃO PARA "SITES ENABLE"
+# CRIANDO LINK DA CONFIGURAÇÃO PARA "SITES ENABLED"
 sudo ln -s /etc/nginx/sites-available/wordpress /etc/nginx/sites-enabled/
 # UNLINK DEFAULT
 sudo unlink /etc/nginx/sites-enabled/default
