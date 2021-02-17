@@ -46,5 +46,5 @@ sudo ./install.sh<br>
 
 ------------------------------------------------------------------------------
 
-<b>4-</b> INSTALAR CERTIFICADO: (Lembrar de ativar a opção <b>2- Redirect</b>)
+<b>5-</b> INSTALAR CERTIFICADO: (Lembrar de ativar a opção <b>2- Redirect</b>)
 - sudo certbot --nginx
