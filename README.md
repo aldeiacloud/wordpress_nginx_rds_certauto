@@ -9,7 +9,7 @@ Contém certificado SSL LetsEncrypt com renovaço automática e redirecionamento
 
 ------------------------------------------------------------------------------
 
-1- NA CAIXA DE DIÁLOGO AO <b>FINAL DA PÁGINA</b> DE CONFIGURAÇÃO DE ZONA/VPC DA EC2, ADICIONAR:
+<b>1-</b> NA CAIXA DE DIÁLOGO AO <b>FINAL DA PÁGINA</b> DE CONFIGURAÇÃO DE ZONA/VPC DA EC2, ADICIONAR:
 
 #!/bin/bash<br>
 cd /tmp<br>
@@ -19,7 +19,7 @@ sudo ./install.sh<br>
 
 ------------------------------------------------------------------------------
 
-2- ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS COLOCANDO O IP PUBLICO NO NAVEGADOR:
+<b>2-</b> ABRIR CONFIGURAÇÃO INICIAL DO WORDPRESS COLOCANDO O IP PUBLICO NO NAVEGADOR:
 
 - Database Name: Initial database name configurado (Ex.: aldeiacloud_db)
 
@@ -35,14 +35,14 @@ sudo ./install.sh<br>
 
 ------------------------------------------------------------------------------
 
-3- LOGAR, ALTERAR O DOMINIO NAS CONFIGURAÇÕES DO WORDPRESS, DO SEU HTTP//:ip-publico para HTTPS://seudominio.com.br
+<b>3-</b> LOGAR, ALTERAR O DOMINIO NAS CONFIGURAÇÕES DO WORDPRESS, DO SEU HTTP//:ip-publico para HTTPS://seudominio.com.br
 
 ------------------------------------------------------------------------------
 
-4- NO TERMINAL, ALTERAR QUINTA LINHA "<i>server_name _;</i>" para "<i>server_name seudominio.com.br www.seudominio.com.br;</i>"
+<b>4-</b> NO TERMINAL, ALTERAR QUINTA LINHA "<i>server_name _;</i>" para "<i>server_name seudominio.com.br www.seudominio.com.br;</i>"
 - sudo vim /etc/nginx/sites-available/wordpress
 
 ------------------------------------------------------------------------------
 
-4- INSTALAR CERTIFICADO: (2- Redirect)
+<b>4-</b> INSTALAR CERTIFICADO: (2- Redirect)
 - sudo certbot --nginx
