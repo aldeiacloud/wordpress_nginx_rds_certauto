@@ -5,7 +5,7 @@ Contém certificado SSL LetsEncrypt com renovação automática e redirecionamen
   - Altera o horário do Ubuntu para GMT-3;
   - Configura 2GB de Swap e adiciona no /etc/fstab.
 
-<b>Vídeo da implementação: www.youtube.com/</b>
+<b>Vídeo da implementação: https://www.youtube.com/watch?v=Rs0RYxts9fc</b>
 
 ------------------------------------------------------------------------------
 
