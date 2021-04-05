@@ -5,6 +5,7 @@ sudo apt update -y
 sudo apt install -y nginx
 # INSTALAR ~PHP
 sudo apt install -y php-fpm php-mysql
+sudo apt install -y php7.4-curl php7.4-gd php7.4-mbstring php7.4-zip php7.4-imagick php7.4-dom
 # ADICIONAR REPO ~LETSENCRYPT E ATUALIZAR
 sudo install -y software-properties-common 
 sudo apt update -y 
@@ -31,7 +32,7 @@ sudo cp -a /tmp/wordpress/. /var/www/html
 # TROCANDO DONO E GRUPO DA PASTA, PARA WWW-DATA (WORDRPRESS)
 sudo chown -R www-data:www-data /var/www/html
 # REINICIANDO O PHP
-sudo systemctl restart php7.2-fpm
+sudo systemctl restart php7.4-fpm
 # REINICIANDO CONFIGURACOES DO NGINX
 sudo systemctl reload nginx
 # HABILITANDO NGINX PARA INICIAR COM SISTEMA OPERACIONAL
