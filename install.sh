@@ -5,7 +5,7 @@ sudo apt update -y
 sudo apt install -y nginx
 # INSTALAR ~PHP
 sudo apt-get install software-properties-common
-sudo add-apt-repository ppa:ondrej/php
+sudo add-apt-repository ppa:ondrej/php && sudo apt update -y 
 sudo apt install -y php-fpm php-mysql
 sudo apt install -y php7.4-curl php7.4-gd php7.4-mbstring php7.4-zip php7.4-imagick php7.4-dom
 # ADICIONAR REPO ~LETSENCRYPT E ATUALIZAR
