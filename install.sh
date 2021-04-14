@@ -4,7 +4,7 @@ sudo apt update -y
 # INSTALAR NGINX
 sudo apt install -y nginx
 # INSTALAR ~PHP
-sudo apt-get install software-properties-common
+sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:ondrej/php && sudo apt update -y 
 sudo apt install -y php-fpm php-mysql
 sudo apt install -y php7.4-curl php7.4-gd php7.4-mbstring php7.4-zip php7.4-imagick php7.4-dom
@@ -35,6 +35,7 @@ sudo cp -a /tmp/wordpress/. /var/www/html
 sudo chown -R www-data:www-data /var/www/html
 # REINICIANDO O PHP
 sudo systemctl restart php7.4-fpm
+/etc/init.d/php8.0-fpm restart
 # REINICIANDO CONFIGURACOES DO NGINX
 sudo systemctl reload nginx
 # HABILITANDO NGINX PARA INICIAR COM SISTEMA OPERACIONAL
